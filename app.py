@@ -38,7 +38,7 @@ def download():
         'format': 'best[height<=360][ext=mp4]/best[height<=360]/best[ext=mp4]/best',
         'extractor_args': {
             'youtube': {
-                'player_client': ['android_vr'],
+                'player_client': ['mweb'],
             }
         },
     }
